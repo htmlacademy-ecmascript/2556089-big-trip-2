@@ -1,8 +1,6 @@
+// import {RenderPosition, createElement, render};
+
+// export default Waypoint {
 
 
-export default Waypoint {
-
-
-
-
-}
+// }
