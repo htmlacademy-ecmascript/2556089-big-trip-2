@@ -2,10 +2,10 @@ import NewFilterListView from './view/filters.js';
 import {render} from './render.js';
 
 const siteHeader = document.querySelector('.page-header');
-const siteFormList = siteHeader.querySelector('.trip-filters');
+const siteFilterList = siteHeader.querySelector('.trip-controls__filters');
 console.log (siteHeader);
-console.log (siteFormList);
+console.log (siteFilterList);
 
-render (new NewFilterListView (), siteHeader);
+render (new NewFilterListView (), siteFilterList);
 
 
