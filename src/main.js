@@ -1,15 +1,15 @@
 import FilterListView from './view/filters-view.js';
-import FormSortingView from './view/form-sorting-view.js';
-import EventListView from './view/event-list-view.js';
+
 import {render} from './render.js';
+import BoardPresenter from './presenter/board-presenter.js';
+
 
 const siteHeader = document.querySelector('.page-header');
 const filterList = siteHeader.querySelector('.trip-controls__filters');
-const siteMain = document.querySelector('.page-main');
-const formSortingSection = siteMain.querySelector('.trip-events');
+const siteMainElement = document.querySelector('.trip-events');
+
+const boardPresenter = new BoardPresenter({container: siteMainElement});
 
 render (new FilterListView (), filterList);
-render (new FormSortingView(), formSortingSection);
-render(new EventListView (), formSortingSection);
 
-
+boardPresenter.init();

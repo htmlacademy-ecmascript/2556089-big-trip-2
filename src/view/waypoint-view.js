@@ -1,6 +1,4 @@
-// import {RenderPosition, createElement, render};
-
-// export default Waypoint {
+import {createElement} from '../render.js';
 
 
-// }
+const createWayPointTemplate = () => '';
