@@ -18,5 +18,4 @@ export default class EventListView {
     }
     return this.element;
   }
-
 }

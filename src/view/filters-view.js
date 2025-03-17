@@ -37,5 +37,4 @@ export default class FilterListView {
     }
     return this.element;
   }
-
 }

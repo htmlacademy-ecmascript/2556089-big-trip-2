@@ -40,7 +40,6 @@ export default class FormSortingView {
       this.element = createElement (this.getTemplate());
     }
     return this.element;
-
   }
 
   removeElement () {

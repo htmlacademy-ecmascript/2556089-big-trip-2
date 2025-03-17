@@ -169,7 +169,6 @@ export default class FormEditingView {
     return this.element;
   }
 
-
   removeElement () {
     this.element = null;
   }
