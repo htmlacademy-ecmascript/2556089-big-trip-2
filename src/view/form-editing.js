@@ -159,7 +159,7 @@ const createFormEditingTemplate = ()=> `<li class="trip-events__item">
 export default class FormEditingView {
 
   getTemplate() {
-    return createFormEditingTemplate;
+    return createFormEditingTemplate();
   }
 
   getElement () {

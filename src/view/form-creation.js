@@ -157,7 +157,7 @@ const createFormCreationTemplate = () => `<form class="event event--edit" action
 export default class FormCreationView {
 
   getTemplate() {
-    return createFormCreationTemplate;
+    return createFormCreationTemplate();
   }
 
   getElement () {
