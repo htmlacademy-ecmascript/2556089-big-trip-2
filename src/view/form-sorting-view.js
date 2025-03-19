@@ -30,7 +30,7 @@ const createFormSortingTemplate = () => `<form class="trip-events__trip-sort  tr
 export default class FormSortingView {
 
   getTemplate () {
-    return createFormSortingTemplate;
+    return createFormSortingTemplate();
   }
 
   getElement() {

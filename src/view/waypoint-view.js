@@ -41,7 +41,7 @@ const createWaypointTemplate = () => ` <li class="trip-events__item">
 export default class WayPointView {
 
   getTemplate() {
-    return createWaypointTemplate;
+    return createWaypointTemplate();
   }
 
   getElement () {

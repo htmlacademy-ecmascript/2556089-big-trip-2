@@ -1,7 +1,7 @@
 import FormSortingView from '../view/form-sorting-view.js';
-import EventListView from '../view/event-list-view.js';
 import FormEditingView from '../view/form-editing.js';
 import FormCreationView from '../view/form-creation.js';
+import EventListView from '../view/event-list-view.js';
 import WayPointView from '../view/waypoint-view.js';
 import {render} from '../render.js';
 

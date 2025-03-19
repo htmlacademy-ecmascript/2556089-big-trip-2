@@ -27,7 +27,7 @@ const createFiltersTemplate = () => (`<form class="trip-filters" action="#" meth
 export default class FilterListView {
 
   getTemplate () {
-    return createFiltersTemplate;
+    return createFiltersTemplate();
   }
 
   getElement () {

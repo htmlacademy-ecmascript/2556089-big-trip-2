@@ -6,7 +6,7 @@ export default class EventListView {
 
   getTemplate () {
 
-    return createEventListTemplate;
+    return createEventListTemplate();
 
   }
 
